@@ -7,7 +7,7 @@ const loginValidation = (req,res,next) =>{
     });
     const {error} = Schema.validate(req.body);
     if (error) {
-        return res.status(400).json({message:"Bad Request", error})
+        return res.status(400).json({message:"Please Provide Right Credentials.", error})
     } 
     next();
 }
