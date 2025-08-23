@@ -110,10 +110,7 @@ export const Login = () => {
                 <label htmlFor="password" className="block text-sm font-semibold text-gray-700 group-focus-within:text-purple-600 transition-colors">
                   Password
                 </label>
-                <Link to="/forgot-password" className="text-sm text-purple-600 hover:text-purple-700 font-medium hover:underline">
-                  Forgot password?
-                </Link>
-              </div>
+                </div>
               <div className="relative">
                 <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
                   <svg className="h-5 w-5 text-gray-400 group-focus-within:text-purple-500 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
