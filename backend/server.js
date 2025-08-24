@@ -21,4 +21,8 @@ app.get('/',(req,res)=>{
     res.send("Express Server Found")
 })
 
+app.get('/terms',(req,res)=>{
+    res.send("Accepted Terms and conditions")
+})
+
 app.listen(PORT)
