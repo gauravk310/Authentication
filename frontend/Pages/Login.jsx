@@ -28,7 +28,7 @@ export const Login = () => {
     }
     try {
       setLoading(true);
-      const url = "https://authentication-api-seven.vercel.app/auth/login";
+      const url = "https://authentication-api-one.vercel.app/auth/login";
       const response = await fetch(url, {
         method: "POST",
         headers: {
