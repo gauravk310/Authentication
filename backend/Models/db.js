@@ -7,10 +7,10 @@ mongoose.Promise = global.Promise;
 export const connectDB = async() => {
     try {
     await mongoose.connect(MONGO_URI) 
-        // console.log('MongoDB Connection Succeeded.')
+        console.log('MongoDB Connection Succeeded.')
         
     } catch (error) {
-        // console.log('Error in DB connection: ' + err)
+        console.log('Error in DB connection: ' + err)
         
     }
 };
