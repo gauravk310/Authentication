@@ -17,7 +17,6 @@ const   signup = async(req , res ) => {
             sucess:true
         })
     } catch (error) {
-        // console.log(error)
          res.status(500).json({
             message:'Internel server error ' + String(error),
             sucess:false
