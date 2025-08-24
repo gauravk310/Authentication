@@ -26,7 +26,7 @@ export const SignUp = () => {
         ErrorToast("Provide All Credentials")
       }
       try {
-        const url = 'http://localhost:8080/auth/signup';
+        const url = 'https://authentication-api-seven.vercel.app/auth/signup';
         const response = await fetch(url, {
           method: "POST",
           headers: {
